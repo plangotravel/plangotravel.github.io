@@ -516,7 +516,7 @@ section {
 
 @media (max-width: 767px) {
   .portfolio .portfolio-item {
-      width: 100%  }
+      width: 100%;  }
 }
 
 
@@ -685,17 +685,17 @@ section {
 
 @media (max-width: 767px) {
   .inner-page .twocolumn {
-      width: 100%  }
+      width: 100%;  }
 }
 
 @media (max-width: 767px) {
   .inner-page .threecolumn {
-      width: 100%  }
+      width: 100%;  }
 }
 
 @media (max-width: 767px) {
   .inner-page .interactivemap {
-      width: 100%  }
+      width: 100%;  }
 }
 .inner-page .right {
     float: right;
