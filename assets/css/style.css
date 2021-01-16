@@ -732,12 +732,6 @@ section {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  .inner-page .interactivemap {
-    margin: 0 48px 0 0;
-    padding: 6px 20px 7px 20px;
-  }
-}
 
 .inner-page img {
     float: right;
