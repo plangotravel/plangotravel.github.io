@@ -546,7 +546,7 @@ section {
   margin-right: 0;
 }
 
-.portfolio .image {
+.portfolio-wrap .image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -557,7 +557,7 @@ section {
   opacity: 0.4;
 }
 
-.portfolio .image2 {
+.portfolio-wrap .image2 {
   opacity: 1;
   display: block;
   width: 100%;
