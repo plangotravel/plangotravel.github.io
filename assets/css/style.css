@@ -514,6 +514,11 @@ section {
   padding: 5px;
 }
 
+@media (max-width: 767px) {
+  .portfolio .portfolio-item {
+      width: 100%  }
+}
+
 
 .portfolio #portfolio-flters {
   padding: 0;
