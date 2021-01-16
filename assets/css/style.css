@@ -820,6 +820,12 @@ section {
     text-align: center;
 }
 
+@media (max-width: 767px) {
+  .map .iframe {
+      width: 100%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Footer
