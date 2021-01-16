@@ -732,7 +732,12 @@ section {
   color: #fff;
 }
 
-
+@media (max-width: 768px) {
+  .inner-page .interactivemap {
+    margin: 0 48px 0 0;
+    padding: 6px 20px 7px 20px;
+  }
+}
 
 .inner-page img {
     float: right;
@@ -766,10 +771,16 @@ section {
   padding: 5px;
 }
 
-.inner-page .fivecolumn {
-  float: left;
-  width: 20%;
-  padding: 5px;
+.inner-page .twocolumn img {
+    width: 100%;
+}
+
+.inner-page .threecolumn img {
+    width: 100%;
+}
+
+.inner-page .fourcolumn img {
+    width: 100%;
 }
 
 /* Clear floats after image containers */
