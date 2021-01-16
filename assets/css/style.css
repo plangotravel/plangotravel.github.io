@@ -724,7 +724,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  .inner-page .ineractivemap {
+  .inner-page .interactivemap {
     margin: 0 48px 0 0;
     padding: 6px 20px 7px 20px;
   }
