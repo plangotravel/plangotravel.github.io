@@ -509,7 +509,11 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  float: left;
+  width: 25%;
+  padding: 5px;
 }
+
 
 .portfolio #portfolio-flters {
   padding: 0;
@@ -547,13 +551,17 @@ section {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
 }
-
 
 .portfolio-wrap:hover .image {
   opacity: 0.4;
+}
+
+.portfolio .image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 
