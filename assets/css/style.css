@@ -683,20 +683,7 @@ section {
 # Inner Page
 --------------------------------------------------------------*/
 
-@media (max-width: 767px) {
-  .inner-page .twocolumn {
-      width: 100%;  }
-}
 
-@media (max-width: 767px) {
-  .inner-page .threecolumn {
-      width: 100%;  }
-}
-
-@media (max-width: 767px) {
-  .inner-page .interactivemap {
-      width: 100%;  }
-}
 .inner-page .right {
     float: right;
 
@@ -717,7 +704,6 @@ section {
 }
 
 .inner-page .interactivemap {
-      margin-left: 25px;
       color: #67b0d1;
       padding: 6px 25px 7px 25px;
       white-space: nowrap;
@@ -792,6 +778,22 @@ section {
 .inner-page li {
     margin: 10px;
 }
+
+@media (max-width: 767px) {
+  .inner-page .twocolumn {
+      width: 100%;  }
+}
+
+@media (max-width: 767px) {
+  .inner-page .threecolumn {
+      width: 100%;  }
+}
+
+@media (max-width: 767px) {
+  .inner-page .interactivemap {
+      width: 100%;  }
+}
+
 
 /*--------------------------------------------------------------
 # Map section
