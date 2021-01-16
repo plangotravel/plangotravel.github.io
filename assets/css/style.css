@@ -803,7 +803,7 @@ section {
 @media (max-width: 767px) {
   .inner-page .interactivemap {
       width: 100%;
-      margin-right; 0px;
+      margin-right: 0px;
   }
 }
 
