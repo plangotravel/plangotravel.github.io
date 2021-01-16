@@ -683,6 +683,10 @@ section {
 # Inner Page
 --------------------------------------------------------------*/
 
+@media (max-width: 767px) {
+  .inner-page {
+      width: 100%  }
+}
 
 .inner-page .right {
     float: right;
