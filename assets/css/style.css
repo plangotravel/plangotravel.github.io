@@ -542,67 +542,32 @@ section {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.portfolio .portfolio-wrap img {
- 
-  object-fit: cover;
-}
-
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
-
-.portfolio .portfolio-wrap .portfolio-links {
+.portfolio .image {
   opacity: 1;
-  left: 0;
-  right: 0;
-  bottom: -60px;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
   display: block;
-  justify-content: center;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
-  color: #fff;
-  font-size: 14px;
+
+.portfolio-wrap:hover .image {
+  opacity: 0.4;
+}
+
+
+.portfolio figcaption {
+  background-color: #6FA2CA;
+  opacity: 0.7;
+  color: white;
+  font-style: italic;
   text-align: center;
-  background: rgba(103, 176, 209, 0.75);
-  transition: 0.3s;
-
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.portfolio .portfolio-wrap .portfolio-links:hover {
-  background: rgba(103, 176, 209, 0.95);
-}
-
-
-.portfolio .portfolio-wrap:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
-  bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # Team
@@ -701,6 +666,118 @@ section {
   margin-left: 8px;
 }
 
+/*--------------------------------------------------------------
+# Inner Page
+--------------------------------------------------------------*/
+
+
+.inner-page .right {
+    float: right;
+
+}
+
+.inner-page .left {
+    width: 60%;
+    float: left;
+}
+
+.inner-page .indent {
+    margin-left: 1em;
+}
+
+
+.inner-page .clear {
+    clear:both;
+}
+
+.inner-page .interactivemap {
+      margin-left: 25px;
+      color: #67b0d1;
+      padding: 6px 25px 7px 25px;
+      white-space: nowrap;
+      font-size: 14px;
+      display: inline-block;
+      border: 2px solid #67b0d1;
+      font-weight: 600;
+    }
+
+.inner-page .interactivemap:hover {
+  background: #31a9e1;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .inner-page .ineractivemap {
+    margin: 0 48px 0 0;
+    padding: 6px 20px 7px 20px;
+  }
+}
+
+.inner-page img {
+    float: right;
+}
+
+.inner-page iframe {
+    padding-bottom: 30px;
+}
+
+.inner-page a {
+  float: right;
+  text-align: center;
+}
+    
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.inner-page .twocolumn {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.inner-page .threecolumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.inner-page .fourcolumn {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.inner-page .fivecolumn {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.inner-page .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.inner-page figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.inner-page li {
+    margin: 10px;
+}
+
+/*--------------------------------------------------------------
+# Map section
+--------------------------------------------------------------*/
+.map iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.map h4 {
+    text-align: center;
+}
 
 
 /*--------------------------------------------------------------
@@ -733,3 +810,4 @@ section {
 }
 
 }
+
